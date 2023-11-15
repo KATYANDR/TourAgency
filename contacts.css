@@ -129,16 +129,32 @@ footer {
     background-color: #262626;
     height: 163px;
     color: white;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .footer__copyright {
-    margin-top: 40px;
-    margin-left: 50px;
+    position: absolute;
+    left: 50px;
+    top: 70px;
 }
 
 .footer__year {
     position: absolute;
     left: 50px;
+    bottom: 40px;
+}
+
+.footer__email {
+    position: absolute;
+    right: 50px;
+    top: 70px;
+}
+
+.footer__tel {
+    position: absolute;
+    right: 50px;
     bottom: 40px;
 }
